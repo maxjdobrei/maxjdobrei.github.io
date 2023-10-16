@@ -6,14 +6,6 @@ permalink: /
 author_profile: true
 ---
 
-until i post something. this will live here.
+Welcome! On this website you can find more information about me personally, and also about projects I'm working on or have finished.
 
-#### Posts:
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+I'm currently working on conducting a security analysis on a project completed by a good friend of mine. When that is completed, you'll find the updated blogpost below.
