@@ -63,10 +63,10 @@ defaults:
       author_profile: true
       read_time: true
       share: true
-      
+
 author:
-  name: "Maximilian Dobrei"
-  avatar: /assets/images/avatar.jpg
+  name: ""
+  avatar: "/assets/images/avatar.jpg"
   bio: Comp Sci graduate passionate about digital privacy and cybersecurity
   location: "Ottawa, ON, Canada"
   links:
