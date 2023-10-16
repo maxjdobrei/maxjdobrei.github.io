@@ -1,15 +1,19 @@
 ---
 layout: single
-title:  "Maximilian JG Dobrei"
+title:  "Home"
 date:   2023-10-16 13:30:00 -0500
 permalink: /
+author_profile: true
 ---
 
-# This is a home page. probably.
+until i post something. this will live here.
 
-and this is a paragraph. probably.  
-i think.
+#### Posts:
 
-and [this](https.maxjdobrei.github.io/about/) is a link. probably
-
-and this is an ![image](https://files.worldwildlife.org/wwfcmsprod/images/Tiger_resting_Bandhavgarh_National_Park_India/hero_full/77ic6i4qdj_Medium_WW226365.jpg). probably.
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

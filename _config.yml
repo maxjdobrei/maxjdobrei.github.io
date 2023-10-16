@@ -62,10 +62,20 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
       share: true
-      related: true
-
+      
+author:
+  name: "Maximilian Dobrei"
+  avatar: /assets/images/avatar.jpg
+  bio: Comp Sci graduate passionate about digital privacy and cybersecurity
+  location: "Ottawa, ON, Canada"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/maximilian-dobrei-252313267/"
+    - label: "Github"
+      icon: "fab fa-github-square"
+      url: "https://github.com/maxjdobrei"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
