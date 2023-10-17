@@ -15,7 +15,6 @@ _maxjdobrei@gmail.com_
 
 ###### Objective
 As a recent graduate I am seeking a position as a Junior Security Support Personnel to further hone my technical skills protecting an enterprise from Cyber threats. I am looking to cultivate my career by establishing myself in a workplace that interests and challenges me.
-{: font-size: $type-size-1}
 
 ###### Education
 
@@ -86,6 +85,7 @@ _Intro to Software Engineering - Prof Christine Laurendeau, Carleton U January  
 ###### Applied Projects
 
 **Team Lead May 2022 - August 2022**
+
 [_OE-MQTT_](https://github.com/maxjdobrei/oe-mqtt)
 
 * Under Professor David Barrera at Carleton University, I created OE-MQTT as a proof of concept for my Honour’s Project.
@@ -94,6 +94,7 @@ _Intro to Software Engineering - Prof Christine Laurendeau, Carleton U January  
 
 
 **Team Member February 2021 - April 2021**
+
 [_SQRL - Rust Client_](https://github.com/filipp-g/rust-sqrl-client)
 * Built a simple terminal based client executable that implements the ‘Secure Quick Reliable Login’ (SQRL) API. Written in the Rust language, this project aims to allow a user to login to any website that supports the SQRL Server API.
 * This process involves HTTP communication between the client application and the server, as well as  implementing and using various cryptographic functions to support creating a public/private key pair for the website in question, providing means for authentication and maintaining transmission integrity. 
