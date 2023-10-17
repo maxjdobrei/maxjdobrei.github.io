@@ -10,12 +10,12 @@ toc_sticky: false
 ---
 
 #### **Maximilian Dobrei**
-##### _maxjdobrei@gmail.com_
+_maxjdobrei@gmail.com_
 
 
 ###### Objective
 As a recent graduate I am seeking a position as a Junior Security Support Personnel to further hone my technical skills protecting an enterprise from Cyber threats. I am looking to cultivate my career by establishing myself in a workplace that interests and challenges me.
-{: .font-size: $type-size-4}
+{: .font-size: $type-size-1}
 
 ###### Education
 
