@@ -5,18 +5,18 @@ date:   2023-10-16 13:30:00 -0500
 permalink: /resume/
 author_profile: false
 toc: true
+toc_sticky: false
 
 ---
 
+#### **Maximilian Dobrei**
+##### _maxjdobrei@gmail.com_
 
-### **Maximilian Dobrei**
-#### _maxjdobrei@gmail.com_
 
+###### Objective
+As a recent graduate I am seeking a position as a Junior Security Support Personnel to further hone my technical skills protecting an enterprise from Cyber threats. I am looking to cultivate my career by establishing myself in a workplace that interests and challenges me.{ font-size: $type-size 4 }
 
-##### Objective
-As a recent graduate I am seeking a position as a Junior Security Support Personnel to further hone my technical skills protecting an enterprise from Cyber threats. I am looking to cultivate my career by establishing myself in a workplace that interests and challenges me.
-
-##### Education
+###### Education
 
 _Bachelor of Computer Science Honors, Computer and Internet Security Stream, Minor in Neuroscience and Mental Health Carleton University, Ottawa, ON  (September 2018 - August 2022)_
 
@@ -25,16 +25,14 @@ _Bachelor of Computer Science Honors, Computer and Internet Security Stream, Min
 * Held a position on the Dean’s Honour List (September 2018 - August 2022)
 
 
-##### Certifications and Security Clearances
+###### Certifications and Security Clearances
 
 * Reliability check (Level 0)
 * Secret (Level II)
 
-##### Programming experience
+###### Programming experience
 
 | Programming language | Skill Level  | Experience |
-
-| -------------------- | -----------  | ---------- |
 
 | Python               | Intermediate | 4 years    |
 | C++                  | Intermediate | 2 years    |
@@ -44,7 +42,7 @@ _Bachelor of Computer Science Honors, Computer and Internet Security Stream, Min
 | Rust                 | Beginner     | 1 years    |
 | Racket               | Beginner     | 1 years    |
 
-##### Technical Skills & Knowledge
+###### Technical Skills & Knowledge
 
 * **Network Monitoring Software**: Utilized Portswigger Burp Suite software to monitor, inspect,  intercept, and modify packets being sent over my network in a sandbox environment. I used the Burp tool to assist my attempts at exploiting vulnerabilities found in “Damn Vulnerable Web Application” to achieve goals such as remote code execution, cross site scripting, and cross site request forgery.
 * **Web based Penetration Tools**: By using a cross site scripting attack on “Damn Vulnerable Web Application”, I injected a payload to hook my browser to “Browser Exploitation Framework” software in a sandboxed environment. From there, I was able to use the software suite to gain information such as the DVWA session cookie, and to launch social engineering attacks like creating a fake flash update appear on the screen.
@@ -61,13 +59,13 @@ _Bachelor of Computer Science Honors, Computer and Internet Security Stream, Min
 * **Debugging**: Knowledgeable of debugging techniques, and plenty of practice using them to resolve issues while grading students’ assignments, and to facilitate my own software development in both academic and enterprise settings.
 * **Version Control**: Experienced with using Github as a source control protocol to enable distributed development of a team project. Proficient using basic GIT operations such as pulling, pushing, branching, merging, committing, etc.
 
-##### Communication Skills
+###### Communication Skills
 
 * **Daily SCRUM Meetings**: Acted as an assistant to the Scrum Master for an IT driven solution, helping coordinate which team members were working on each respective work order, tracking progress, and ensuring the given timeline was followed to the best of the team’s ability. Other responsibilities included facilitating discussions between junior team members and business clients.
 * **Mentoring**: Collaborated as a part of a team of teaching assistants conducting laboratory activities. This involved clarifying the professor’s instructions and conveying key concepts from the course material to the students, in order to facilitate the students’ understanding of the content and completion of exercises. To find success as a teaching assistant, not only do you need to quickly understand a student's query and the root of the problem, you must have the ability to communicate the solution effectively, in a friendly and polite manner.  
 * **Technical Writing**: Wrote a technical paper for my Honour’s project that included architectural diagrams and implementation details, as well as a security analysis and recommendations for future work. 
 
-##### Work Experience
+###### Work Experience
 
 **IT Analyst (CS 1) - Canada Revenue Agency May 2021 - February 2023**
 _Travel and Control Team within the Corporate Enterprise Solutions Division, under the Information Technology Branch_
@@ -85,7 +83,7 @@ _Intro to Software Engineering - Prof Christine Laurendeau, Carleton U January  
 * Conducted tutorial sessions in a computer laboratory environment in a manner to answer student questions and to provide clarifications of lecture content, as well as clearing up any misunderstandings regarding the programming evaluations.
 * Held weekly office hours to offer more personal one on one guidance, in the hope of being able to help students understand assignment specifications, practice exam questions, and course material, and on occasion giving constructive feedback on assignments or midterm evaluations. 
 
-##### Applied Projects
+###### Applied Projects
 
 **Team Lead May 2022 - August 2022**
 [_OE-MQTT_](https://github.com/maxjdobrei/oe-mqtt)
