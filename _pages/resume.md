@@ -14,7 +14,8 @@ toc_sticky: false
 
 
 ###### Objective
-As a recent graduate I am seeking a position as a Junior Security Support Personnel to further hone my technical skills protecting an enterprise from Cyber threats. I am looking to cultivate my career by establishing myself in a workplace that interests and challenges me.{ font-size: $type-size 4 }
+As a recent graduate I am seeking a position as a Junior Security Support Personnel to further hone my technical skills protecting an enterprise from Cyber threats. I am looking to cultivate my career by establishing myself in a workplace that interests and challenges me.
+{: .font-size: $type-size-4}
 
 ###### Education
 
@@ -32,8 +33,7 @@ _Bachelor of Computer Science Honors, Computer and Internet Security Stream, Min
 
 ###### Programming experience
 
-| Programming language | Skill Level  | Experience |
-
+| Language             | Skill Level  | Experience |
 | Python               | Intermediate | 4 years    |
 | C++                  | Intermediate | 2 years    |
 | Java                 | Intermediate | 5 years    |
