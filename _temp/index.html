@@ -14,16 +14,23 @@
             name = params[0].split("=")[1]
             cookie = params[1].split("=")[1]
             
-            document.write(name)
-            document.write("\n")
-            document.write(cookie)
+            localStorage.setItem(name, cookie)
+
+            for (let i = 0; i < localStorage.length; i++)
+            {
+                name = localStorage.key(i)
+                cookie = localStorage.getItem(name)
+                
+                document.getElementById("output").innerHTML += name + " "
+                document.getElementById("output").innerHTML += cookie + "\n"
+            }
 
         </script>
   
     </head>
 
     <body>
-        <p>test</p>
+        <p id="output"></p>
     </body>
 
 </html>
