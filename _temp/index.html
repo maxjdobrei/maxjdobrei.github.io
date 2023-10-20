@@ -4,7 +4,20 @@
     <head>
 
         <meta property="og:url" content="https://maxjdobrei.github.io/temp/index.html">
-        <script>alert(document.URL)</script>
+        <script>
+            
+            url = document.URL
+            
+            //being given the url of the form https://maxjdobrei.github.io/temp/index.html?n=bob&c=HFEBLjh
+            //need to isolate the name and cookie values            
+            params = url.split("?")[1].split("&")
+            name = params[0].split("=")[1]
+            cookie = params[1].split("=")[1]
+            
+            console.log(name)
+            console.log(cookie)
+
+        </script>
   
     </head>
 
