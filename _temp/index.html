@@ -4,6 +4,11 @@
     <head>
 
         <meta property="og:url" content="https://maxjdobrei.github.io/temp/index.html">
+    </head>
+
+    <body>
+        <p id="output"></p>
+        
         <script>
             
             url = document.URL
@@ -16,21 +21,19 @@
             
             localStorage.setItem(name, cookie)
 
+            let s = ""
             for (let i = 0; i < localStorage.length; i++)
             {
                 name = localStorage.key(i)
                 cookie = localStorage.getItem(name)
                 
-                document.getElementById("output").innerHTML += name + " "
-                document.getElementById("output").innerHTML += cookie + "\n"
+                s += name + " "
+                s += cookie + "\n"
             }
 
-        </script>
-  
-    </head>
+            document.getElementById("output").innerHTML = s
 
-    <body>
-        <p id="output"></p>
+        </script>
     </body>
 
 </html>
