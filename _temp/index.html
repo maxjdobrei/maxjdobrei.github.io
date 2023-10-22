@@ -59,8 +59,8 @@
                 {
                     console.log(sc.innerHTML)
                     let str = sc.innerHTML
-                    str = str.replaceAll("/\"/g", "")
-                    str = str.replaceAll("/\\/g", "")
+                    str = str.replaceAll("\"", "")
+                    str = str.replaceAll("\\", "")
                     console.log(str)
                     
                 }
