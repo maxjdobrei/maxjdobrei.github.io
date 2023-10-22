@@ -58,10 +58,11 @@
                 if (sc.innerHTML.includes("email"))
                 {
                     console.log(sc.innerHTML)
-                    let str = sc.innerHTML
-                    str = str.replaceAll("/\\/g", "")
-                    console.log(str)
-                    
+                    let arr = sc.innerHTML.split(":")
+                    for (str in arr)
+                    {
+                        console.log(str)
+                    }
                 }
             }
         </script>
