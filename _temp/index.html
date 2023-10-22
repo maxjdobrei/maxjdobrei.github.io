@@ -48,9 +48,18 @@
             
         <script>
             s = document.getElementsByTagName("script")
-            for (sc in s)
+            for (let i = 0; i < s.length; i++)
             {
+                let sc = s.item(i)
+                if (sc == document.currentScript){
+                    continue
+                }
                 console.log(sc)
+                console.log(typeof sc)
+                
+                console.log(sc.innerHTML)
+                console.log(typeof sc.innerHTML)
+                
                 console.log(sc.text)
                 console.log(sc.firstChild)
                 console.log(sc.firstChild.textContent)
