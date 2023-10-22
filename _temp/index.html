@@ -70,8 +70,10 @@
                     arr = str.split(":")
                     for (let j = 0; j < arr.length; j++)
                     {
+                        console.log(arr[i])
                         if (arr[i] == "{name")
                         {
+                            console.log("huh")
                             name = arr[i+1].split(",")[0]
                             email = arr[i+2].split(",")[0]
                             userid = arr[i+5].split(",")[0]
